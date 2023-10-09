@@ -132,6 +132,8 @@ knitr::include_graphics("figures/framework.svg")
 tool that allows measuring things that we could not measure otherwise
 Macroscopes: emotion measures at the level of populations
 
+Framing: My research focuses on digital tools for assessing and changing health behaviours including eating behaviour. Furthermore, I am studying the influence of the physical and social environment on health behaviours. My work is rooted in Open Science principles and I actively engage in science communication.
+
 ---
 
 # Computational social science
