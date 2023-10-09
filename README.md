@@ -1,2 +1,2 @@
-# HMResearchSummary
-research summary Oct 2023
+# Research Summary Hannah Metzler
+Research summary Oct 2023
