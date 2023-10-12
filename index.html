@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Studying emotions, mental health and social behavior via social media</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Mag. Dr. Hannah Metzler" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="libs/footer&middle.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+
+
+layout: true
+
+---
+class: inverse, center, middle, title-slide
+background-image: url(figures/brain.png)
+background-size: contain
+
+# Studying emotions, mental health and social behavior via social media
+## Dr. Hannah Metzler
+### 13.10.2023 - University of Vienna
+#### Slides: www.hannahmetzler.eu/HMResearchSummary
+
+
+
+---
+layout: true
+
+---
+
+# My background
+
+.left-column[
+&lt;img src="figures/uniwien.jpg" width="200" style="display: block; margin: auto;" /&gt;
+&lt;img src="figures/ens_sorbonne.svg" width="220" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="figures/knowcenter2.svg" width="110" style="display: block; margin: auto;" /&gt;
+&lt;br&gt;
+&lt;img src="figures/csh.png" width="190" style="display: block; margin: auto;" /&gt;
+&lt;img src="figures/Meduni-wien.svg" width="210" style="display: block; margin: auto;" /&gt;
+]
+
+.right-column[.center-right[
+* Master in Psychology
+* &lt;span style="font-size: 25px; font-style: italic"&gt;Emotional, hormonal &amp; neural gender differences in stress responses&lt;/span&gt; &lt;br&gt; &lt;br&gt;
+* PhD in Social &amp; Affective Neuroscience
+* &lt;span style="font-size: 25px; font-style: italic"&gt;The influence of bodily actions on social perception &amp; behaviour &lt;br&gt; &lt;br&gt;
+* Postdoc &amp; Project Manager in Open Science &lt;br&gt; &lt;br&gt; &lt;br&gt;
+* Postdoc in Computational Social Science
+* Project-PI since November 2021
+* &lt;span style="font-size: 25px; font-style: italic"&gt;Social media, emotions, mental health, misinformation&lt;/span&gt;
+]]
+
+---
+
+&lt;!-- --- --&gt;
+&lt;!-- layout: true --&gt;
+&lt;!-- &lt;div class="my-footer"&gt;&lt;span&gt; --&gt;
+&lt;!-- &lt;a href="https://psyarxiv.com/t8mhw"&gt; Metzler et al. Psyarxiv (2020) - &lt;/a&gt; --&gt;
+&lt;!-- &lt;a href="https://rdcu.be/8Gx5"&gt; Chadwick*, Metzler* et al. Motivation &amp; Emotion (2019) - &lt;/a&gt; --&gt;
+&lt;!-- &lt;a href="https://peerj.com/articles/6726"&gt; Metzler &amp; Grèzes. PeerJ (2019)&lt;/a&gt; --&gt;
+&lt;!-- &lt;/span&gt;&lt;/div&gt; --&gt;
+
+&lt;!-- --- --&gt;
+
+&lt;!-- # Emotions in non-verbal social interaction --&gt;
+
+&lt;!-- .right-column[.center-right[ --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=700} --&gt;
+&lt;!-- knitr::include_graphics("figures/nonverbal.jpg") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- ]] --&gt;
+
+&lt;!-- -- --&gt;
+
+&lt;!-- .left-column[ --&gt;
+&lt;!-- **Emotions** --&gt;
+&lt;!-- - attract &amp; direct attention --&gt;
+
+&lt;!-- - affect behavior --&gt;
+
+&lt;!-- &lt;br&gt; --&gt;
+
+&lt;!-- Open Science! --&gt;
+&lt;!-- ] --&gt;
+
+---
+layout: true
+
+---
+
+# My research in the area of social media
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;img src="figures/framework.svg" width="1100" style="display: block; margin: auto;" /&gt;
+
+???
+My research in the last 3 years has revolved on social media as research tool, as well as a research topic. I want to briefly present 3 research projects to you, in which I focused on social media in one of three different ways: a digital tool to measure behaviors that could not otherwise be measured, a digital media that has effects on real world behavior, and finally, an new kind of social environment: interaction with large amounts of people, opportunity of observing many others, group identities are salient, mediated by platform design and algorithms.
+
+
+---
+
+# Social media as a data source
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;img src="figures/framework_data.svg" width="1100" style="display: block; margin: auto;" /&gt;
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href="https://psyarxiv.com/qejxv"&gt; Metzler, Rimé, Pellert, Niederkrotenthaler, Di Natale &amp; Garcia (2023) Emotion. &lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# Collective emotions during COVID-19
+
+.pull-left[.center-left[
+**Social media data**
+* Emotional expressions on Twitter
+* 5 weeks after outbreak in 2020
+* 8,3 billion tweets in 6 languages
+* Geolocation: 18 countries
+
+**Computational Methods**
+* Automated text-analysis
+* Validated emotion dictionaries
+* Robustness: Machine Learning
+* Generalized multilevel modeling: &lt;br&gt;*p(emo) ~ time + (country|time)*
+]]
+
+.pull-right[
+
+&lt;img src="figures/EmotionTimelines2020_Italy.svg" width="600" /&gt;
+]
+
+
+???
+
+ML: Deep learning: RoBERTa fine-tuned to tweets
+Generalized mixed-effects logistic regression models - 
+Fixed-effect coefficients: 
+Common effects across countries
+After image: link to stringency and cases in plot: association with real world events
+
+---
+
+# Stringency of measures &amp; COVID cases
+
+.pull-left[.center-left[
+&lt;img src="figures/stringency_periods.svg" width="460" /&gt;
+]]
+
+.pull-right[.center-right[
+&lt;img src="figures/correlation_anx_cases_week1.svg" width="440" /&gt;
+]]
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href=https://arxiv.org/abs/2107.13236&gt; Garcia, Pellert, Lasser, Metzler. arXiv (2021) - &lt;/a&gt;
+&lt;a href=https://www.nature.com/articles/s41598-022-14579-y&gt; Pellert, Metzler, Matzenberger &amp; Garcia. Scientific Reports (2022) &lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# Real-world effects of social media
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;img src="figures/framework_effects.svg" width="1100" style="display: block; margin: auto;" /&gt;
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt; 
+&lt;a href="https://www.jmir.org/2022/8/e34705"&gt; Metzler, Baginski, Niederkrotenthaler &amp; Garcia (2022) JMIR &lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+# Media effects research on suicide
+
+News reporting on suicide influences suicidal behavior in individuals at risk
+
+.pull-left[.center-left[
+&lt;img src="figures/Werther.png" width="250" style="display: block; margin: auto;" /&gt;
+
+&lt;div style="text-align:center"&gt;
+Reports on suicide deaths: &lt;br&gt;
+&lt;span style="font-weight: bold; color:#1f5c99"&gt; Werther&lt;/span&gt; effect &lt;br&gt;
+&lt;font size="4"&gt;
+&lt;a href='https://www.bmj.com/content/368/bmj.m575'&gt; Meta-analysis: Niederkrotenthaler et al. 2020 &lt;/a&gt;
+&lt;/font&gt; &lt;/div&gt;
+
+]]
+
+.pull-right[.center-right[
+
+&lt;img src="figures/Papageno.png" width="200" style="display: block; margin: auto;" /&gt;
+
+&lt;div style="text-align:center"&gt;
+Stories of hope &amp; coping: &lt;br&gt; 
+&lt;span style="font-weight: bold; color:#1f5c99"&gt; Papageno&lt;/span&gt; effect  &lt;br&gt; 
+&lt;font size="4"&gt;
+&lt;a href='https://www.doi.org/10.1192/bjp.bp.109.074633'&gt; (e.g. ) Niederkrotenthaler et al. 2010 &lt;/a&gt;
+&lt;/font&gt; &lt;/div&gt;
+]]
+
+&lt;div style="text-align:center; font-weight: bold; color:#1f5c99"&gt; Content, language &amp; emotional connotation matter &lt;/div&gt;
+
+---
+
+
+## Machine learning classification of harmful &amp; protective content
+
+.pull-left[
+* Social media content on suicide
+* Big data for robust results
+* 14.5 million US tweets 2013-2020
+]
+--
+.pull-right[
+* Scheme: content categories
+* Machine Learning to automatically label tweets
+]
+
+--
+&lt;img src="figures/MLresults_per_category.svg" width="1000" style="display: block; margin: auto;" /&gt;
+
+???
+Social media: young adults and new content types, but few studies
+Small datasets with manual labelling: Big data
+Best performance with BERT
+* Prevention: Model detects 90%
+* Suicidal thoughts: Model misses many - sarcastic messages
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt; 
+&lt;a href="https://doi.org/10.1177/00048674221126649"&gt; Niederkrotenthaler, Tran, Baginski,..., &amp; Metzler (2023). Australian &amp; New Zealand Journal of Psychiatry. &lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+## Associations with suicides &amp; helpline calls in the US
+
+Daily % of all suicide-related tweets 2016-2018
+
+
+&lt;img src="figures/Daily_timeseries_Coping_Prevention.svg" width="700" style="display: block; margin: auto auto auto 0;" /&gt;
+
+* Time series analysis with daily suicide cases &amp; helpline calls
+* Protective associations: Coping stories &amp; prevention tweets
+
+
+---
+layout:true
+
+---
+
+## Social media as a digital social environment
+
+&lt;br&gt;&lt;br&gt;
+
+&lt;img src="figures/framework_env.svg" width="1000" style="display: block; margin: auto;" /&gt;
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt; 
+&lt;a href="www.hannahmetzler.eu/emomis"&gt; Emomis project website &lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+
+# Emotional misinformation spreading
+
+&lt;img src="figures/factchecking.svg" width="400" /&gt;
+&lt;img src="figures/pexels-alex-green-5699823.jpg" width="300" /&gt;
+
+.left-column[
+&lt;span style="font-size: 25px"&gt;Digital Humanism project - 400k &lt;br&gt;
+12/2021 - 02/2025&lt;/span&gt;
+&lt;img src="figures/wwtf.svg" width="300" /&gt;
+]
+
+.right-column[
+* Emotions attract attention &amp; increase sharing
+
+* Polarized group discussions on social media
+
+* Beliefs are shaped by our social identity
+]
+
+???
+* Current interventions focus on accuracy &lt;br&gt;
+
+---
+
+## Socio-emotional processes: Health misinformation
+
+&lt;img src="figures/Emomis.svg" width="1100" style="display: block; margin: auto auto auto 0;" /&gt;
+
+---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href=https://doi.org/10.31234/osf.io/udqms&gt; Lühring, J., Shetty, A., ..., Metzler, H. (2023). PsyarXiv (2023)&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+## Emotions = Irrationality &amp; manipulation?
+
+* Replication &amp; extension of [Martel et al. (2020)](https://doi.org/10.1186/s41235-020-00252-3")
+* Pre-registered online survey in Austria in Dec 2021
+* Actual false &amp; real COVID-19 news items (n=24): accuracy rating task
+* Emotional state &amp; response to each item
+
+&lt;center&gt;
+&lt;img src="figures/N15.PNG" height="270" /&gt;
+&lt;img src="figures/NR14.PNG" height="270" /&gt;
+
+---
+
+## Angry responses driven by people recognizing lies
+
+&lt;img src="figures/curvi-linear.svg" width="800" style="display: block; margin: auto;" /&gt;
+
+* Higher anger in people **good &amp; bad** at recognizing false news
+* Angry responses because most people **recognize** false news
+* Emotions arise when information contradicts beliefs rooted in social identity
+
+&lt;div style="color:grey"&gt;&lt;small&gt;&lt;left&gt;
+Robust polynomial curves for news discernment &amp; emotional responses. &lt;/small&gt;
+&lt;/div&gt;
+
+---
+layout:true
+
+---
+
+## Pilotstudy: Beliefs incongruent with social identity
+
+.left-column[
+![](figures/Facebook Post_Homeopathy_Intervention_Cropped.png)&lt;!-- --&gt;
+]
+
+.right-column[
+
+* People sympathizing with alternative medicine
+
+* Intervention: 
+  * History of right-wing extremist support
+  * News articles from right-wing website
+  
+* Pre-post: Sympathy and trust ratings
+  
+**=&gt; Highlighting that current beliefs contradicts an &lt;br&gt;
+important social identity reduces trust in &lt;br&gt; 
+alternative medicine (r=0.6)**
+]
+
+
+
+---
+layout:true
+&lt;div class="my-footer"&gt;&lt;span&gt;
+&lt;a href=https://doi.org/10.31234/osf.io/cxa9u&gt; Metzler &amp; Garcia (2023). Perspectives on Psychological Science (2023)&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+
+---
+
+## Digital media effects on well-being, fake news &amp; polarization?
+
+* Social media &amp; its algorithms as the culprit for large societal issues
+
+* Social interaction networks vs. recommendation algorithms
+
+* Evidence: algorithms mostly reinforce existing social drivers of these problems
+
+* Suggestions for future research on platform design &amp; algorithms that support well-being, and societal collaboration
+
+---
+
+## Relevant skills for the health psychology group
+
+.pull-left[.center-left[
+
+### Quantitative methods
+
+* Automated-text analysis
+
+* Multilevel modeling &amp; &lt;br&gt; longitutinal data
+
+* Coding (R, Matlab, Python)
+
+* Experimental design
+
+* Online experiments
+]]
+
+.pull-right[.center-right[
+
+### Research topics
+
+* Social media and mental health
+
+* Media content effects on real-world behavior
+
+* Misinformation interventions
+
+* Leveraging social identity to increase receptivity to corrective health information
+
+]]
+
+---
+layout: true
+
+---
+
+# Thank you!
+
+&lt;br&gt; 
+
+For more on my research: https://hannahmetzler.eu
+
+For data and code: https://github.com/hannahmetzler
+
+Slides: https://hannahmetzler.eu/HMResearchSummary
+
+&lt;br&gt;
+
+&lt;img src="figures/csh.png" width="220" /&gt;
+&lt;img src="figures/Meduni-wien.svg" width="220" /&gt;
+&lt;img src="figures/wwtf.svg" width="300" /&gt;
+&lt;img src="figures/vibrant.svg" width="260" /&gt;
+
+
+???
+
+&lt;!-- --- --&gt;
+&lt;!-- class: inverse, center, middle, title-slide --&gt;
+&lt;!-- background-image: url(figures/brain.png) --&gt;
+&lt;!-- background-size: contain --&gt;
+
+&lt;!-- # Research Summary Hannah Metzler --&gt;
+&lt;!-- # Additional slides --&gt;
+
+&lt;!-- --- --&gt;
+
+&lt;!-- # Validity of emotion measures --&gt;
+
+&lt;!-- .pull-left[.center-left[ --&gt;
+&lt;!-- * UK Twitter data --&gt;
+&lt;!-- * YouGov: Weekly representative UK emotion survey --&gt;
+&lt;!-- * 2 year period --&gt;
+
+&lt;!-- * Automated text-analysis &amp; Machine Learning --&gt;
+&lt;!-- * Pre-registered hypotheses for prediction period --&gt;
+&lt;!-- ]] --&gt;
+&lt;!-- .pull-right[.center-right[ --&gt;
+&lt;!-- ```{r, echo=FALSE, out.width=650, fig.align='right'} --&gt;
+&lt;!-- knitr::include_graphics("figures/Anxiety.svg") --&gt;
+&lt;!-- ``` --&gt;
+
+&lt;!-- ```{r, echo=FALSE, out.width=650, fig.align='right'} --&gt;
+&lt;!-- knitr::include_graphics("figures/Sadness.svg") --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- ]] --&gt;
+
+&lt;!-- * Sentiment analysis in Austria: similar results --&gt;
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="libs/perc.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
