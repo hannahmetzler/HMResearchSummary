@@ -426,12 +426,10 @@ important social identity reduces trust in <br>
 alternative medicine (r=0.6)**
 ]
 
-
-
 ---
 layout:true
 <div class="my-footer"><span>
-<a href=https://doi.org/10.31234/osf.io/cxa9u> Metzler & Garcia (2023). Perspectives on Psychological Science (2023)</a></span></div>
+<a href=https://journals.sagepub.com/doi/10.1177/17456916231185057> Metzler & Garcia (2023). Perspectives on Psychological Science (2023)</a></span></div>
 
 ---
 
@@ -443,7 +441,7 @@ layout:true
 
 * Evidence: algorithms mostly reinforce existing social drivers of these problems
 
-* Suggestions for future research on platform design & algorithms that support well-being, and societal collaboration
+* Ideas for future research on platform design & algorithms that support well-being, and societal collaboration
 
 ---
 
