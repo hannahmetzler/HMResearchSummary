@@ -80,7 +80,7 @@ knitr::include_graphics("figures/Meduni-wien.svg")
 * Postdoc & Project Manager in Open Science <br> <br> <br>
 * Postdoc in Computational Social Science
 * Project-PI since November 2021
-* <span style="font-size: 25px; font-style: italic">Social media, mental health, misinformation</span>
+* <span style="font-size: 25px; font-style: italic">Social media, emotions, mental health, misinformation</span>
 ]]
 
 ---
@@ -121,26 +121,26 @@ layout: true
 
 ---
 
-# Computational social science
+# My research in the area of social media
 
-### Social media...
-```{r, echo=FALSE, out.width=1000, fig.align='center'}
+<br><br>
+
+```{r, echo=FALSE, out.width=1100, fig.align='center'}
 knitr::include_graphics("figures/framework.svg")
 ```
 
 ???
-tool that allows measuring things that we could not measure otherwise
-Macroscopes: emotion measures at the level of populations
+My research in the last 3 years has revolved on social media as research tool, as well as a research topic. I want to briefly present 3 research projects to you, in which I focused on social media in one of three different ways: a digital tool to measure behaviors that could not otherwise be measured, a digital media that has effects on real world behavior, and finally, an new kind of social environment: interaction with large amounts of people, opportunity of observing many others, group identities are salient, mediated by platform design and algorithms.
 
-Framing: My research focuses on digital tools for assessing and changing health behaviours including eating behaviour. Furthermore, I am studying the influence of the physical and social environment on health behaviours. My work is rooted in Open Science principles and I actively engage in science communication.git 
 
 ---
 
-# Computational social science
+# Social media as a data source
 
-### Social media as a data source
-```{r, echo=FALSE, out.width=1000, fig.align='center'}
-knitr::include_graphics("figures/framework_datasource.svg")
+<br><br>
+
+```{r, echo=FALSE, out.width=1100, fig.align='center'}
+knitr::include_graphics("figures/framework_data.svg")
 ```
 
 ---
@@ -152,7 +152,7 @@ layout: true
 
 # Collective emotions during COVID-19
 
-.pull-left[
+.pull-left[.center-left[
 **Social media data**
 * Emotional expressions on Twitter
 * 5 weeks after outbreak in 2020
@@ -163,8 +163,8 @@ layout: true
 * Automated text-analysis
 * Validated emotion dictionaries
 * Robustness: Machine Learning
-* GLMEMs
-]
+* Generalized multilevel modeling: <br>*p(emo) ~ time + (country|time)*
+]]
 
 .pull-right[
 
@@ -177,12 +177,14 @@ knitr::include_graphics("figures/EmotionTimelines2020_Italy.svg")
 ???
 
 ML: Deep learning: RoBERTa fine-tuned to tweets
-Generalized Linear Mixed Effect Models
+Generalized mixed-effects logistic regression models - 
+Fixed-effect coefficients: 
+Common effects across countries
 After image: link to stringency and cases in plot: association with real world events
 
 ---
 
-# Measure stringency & COVID cases
+# Stringency of measures & COVID cases
 
 .pull-left[.center-left[
 ```{r, echo=FALSE, out.width=460}
@@ -191,7 +193,7 @@ knitr::include_graphics("figures/stringency_periods.svg")
 ]]
 
 .pull-right[.center-right[
-```{r, echo=FALSE, out.width=400}
+```{r, echo=FALSE, out.width=440}
 knitr::include_graphics("figures/correlation_anx_cases_week1.svg")
 ```
 ]]
@@ -204,37 +206,11 @@ layout: true
 
 ---
 
-# Validity of emotion measures
+# Real-world effects of social media
 
-.pull-left[.center-left[
-* UK Twitter data
-* YouGov: Weekly representative UK emotion survey
-* 2 year period
+<br><br>
 
-* Automated text-analysis & Machine Learning
-* Pre-registered hypotheses for prediction period
-]]
-.pull-right[.center-right[
-```{r, echo=FALSE, out.width=650, fig.align='right'}
-knitr::include_graphics("figures/Anxiety.svg")
-```
-
-```{r, echo=FALSE, out.width=650, fig.align='right'}
-knitr::include_graphics("figures/Sadness.svg")
-```
-]]
-
-* Sentiment analysis in Austria: similar results
-
-???
----
-layout: true
-
----
-# Computational social science
-### Effects of social media
-
-```{r, echo=FALSE, out.width=1000, fig.align='center'}
+```{r, echo=FALSE, out.width=1100, fig.align='center'}
 knitr::include_graphics("figures/framework_effects.svg")
 ```
 
@@ -291,9 +267,8 @@ Stories of hope & coping: <br>
 ]
 --
 .pull-right[
-* Scheme: typical content categories
-* Artificial Intelligence: <br>
-Traditional ML & Deep Learning
+* Scheme: content categories
+* Machine Learning to automatically label tweets
 ]
 
 --
@@ -307,8 +282,6 @@ Small datasets with manual labelling: Big data
 Best performance with BERT
 * Prevention: Model detects 90%
 * Suicidal thoughts: Model misses many - sarcastic messages
-* State-of-the art performance <span style="font-size: 18px"><a href='https://www.sciencedirect.com/science/article/pii/S2468696417300605'> Burnap et al. (2017) </a> </span>
-
 
 ---
 layout: true
@@ -317,54 +290,73 @@ layout: true
 
 ---
 
-## Associations with suicides & helpline calls
+## Associations with suicides & helpline calls in the US
 
-* Daily volume of tweets per category: Time series in the US
-```{r, echo=FALSE, out.width=830, fig.align='left'}
-knitr::include_graphics("figures/CopingPreventionTweets.png")
+Daily % of all suicide-related tweets 2016-2018
+
+
+```{r, echo=FALSE, out.width=700, fig.align='left'}
+knitr::include_graphics("figures/Daily_timeseries_Coping_Prevention.svg")
 ```
 
 * Time series analysis with daily suicide cases & helpline calls
-* Suicide cases in general: no association 
-<span style="font-size: 18px"><a href='https://www.doi.org/10.1192/bjp.bp.109.074633'> (confirming Niederkrotenthaler et al. 2020) </a> </span>
-* Coping stories: protective association with calls, but are rare
-* Prevention tweets: protective association with cases & calls
+* Protective associations: Coping stories & prevention tweets
+
 
 ---
 layout:true
 
 ---
 
-# Computational social science
-### Social media as a system
+## Social media as a digital social environment
+
+<br><br>
+
 ```{r, echo=FALSE, out.width=1000, fig.align='center'}
-knitr::include_graphics("figures/framework_system.svg")
+knitr::include_graphics("figures/framework_env.svg")
 ```
 
 ---
+layout: true
+<div class="my-footer"><span> 
+<a href="www.hannahmetzler.eu/emomis"> Emomis project website </a></span></div>
+
+---
+
+
 # Emotional misinformation spreading
 
+```{r, echo=FALSE, out.width=400}
+knitr::include_graphics("figures/factchecking.svg")
+```
+```{r, echo=FALSE, out.width=300}
+knitr::include_graphics("figures/pexels-alex-green-5699823.jpg")
+```
+
 .left-column[
-```{r, echo=FALSE, out.width=350, fig.align='center'}
-knitr::include_graphics("figures/factchecking.jpeg")
+<span style="font-size: 25px">Digital Humanism project - 400k <br>
+12/2021 - 02/2025</span>
+```{r, echo=FALSE, out.width=300}
+knitr::include_graphics("figures/wwtf.svg")
 ```
-
-<br> <br> <br><br> 
-
-```{r, echo=FALSE, out.width=120, fig.align='left'}
-knitr::include_graphics("figures/wwtf_notext.jpg")
-```
-<span style="font-size: 25px">PI of Digital Humanism project, 400k </span> 
 ]
 
 .right-column[
-* Current interventions focus on accuracy <br>
-* Fake news and conspiracies increase during crisis
-* Emotions increase sharing
+* Emotions attract attention & increase sharing
+
+* Polarized group discussions on social media
+
+* Beliefs are shaped by our social identity
 ]
 
+???
+* Current interventions focus on accuracy <br>
 
-```{r, echo=FALSE, out.width=850, fig.align='left'}
+---
+
+## Socio-emotional processes: Health misinformation
+
+```{r, echo=FALSE, out.width=1100, fig.align='left'}
 knitr::include_graphics("figures/Emomis.svg")
 ```
 
@@ -375,13 +367,65 @@ layout: true
 
 ---
 
-# Slide on emotion paper
+## Emotions = Irrationality & manipulation?
+
+* Replication & extension of [Martel et al. (2020)](https://doi.org/10.1186/s41235-020-00252-3")
+* Pre-registered online survey in Austria in Dec 2021
+* Actual false & real COVID-19 news items (n=24): accuracy rating task
+* Emotional state & response to each item
+
+<center>
+```{r, echo=FALSE, out.height=270}
+knitr::include_graphics("figures/N15.PNG")
+```
+```{r, echo=FALSE, out.height=270}
+knitr::include_graphics("figures/NR14.PNG")
+```
 
 ---
 
-# Health beliefs: Social identity intervention
+## Angry responses driven by people recognizing lies
 
-* Picture homeopathy
+```{r, echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("figures/curvi-linear.svg")
+```
+
+* Higher anger in people **good & bad** at recognizing false news
+* Angry responses because most people **recognize** false news
+* Emotions arise when information contradicts beliefs rooted in social identity
+
+<div style="color:grey"><small><left>
+Robust polynomial curves for news discernment & emotional responses. </small>
+</div>
+
+---
+layout:true
+
+---
+
+## Pilotstudy: Beliefs incongruent with social identity
+
+.left-column[
+```{r, echo=FALSE}
+knitr::include_graphics("figures/Facebook Post_Homeopathy_Intervention_Cropped.png")
+```
+]
+
+.right-column[
+
+* People sympathizing with alternative medicine
+
+* Intervention: 
+  * History of right-wing extremist support
+  * News articles from right-wing website
+  
+* Pre-post: Sympathy and trust ratings
+  
+**=> Highlighting that current beliefs contradicts an <br>
+important social identity reduces trust in <br> 
+alternative medicine (r=0.6)**
+]
+
 
 
 ---
@@ -391,36 +435,57 @@ layout:true
 
 ---
 
-## Social drivers and algorithmic mechanisms on digital media
+## How do digital media affect societal issues?
+
+* Mental health, fake news, polarization...
+
+* Social media & its algorithms as the culprit
+
+
 
 
 
 ---
 
-# Conclusions
-.left-column[
-<br>
-**Data source**
-<br> <br> <br><br> <br> 
-**Effects of media content**
-<br> <br> <br>
-**System**
-]
+## Relevant skills for the health psychology group
 
-.right-column[
-* Emotions and mental health at collective level
+.pull-left[.center-left[
 
+### Quantitative methods
 
-* Media content effects real-world behavior
+* Automated-text analysis
 
-* Leveraging social idendity motives for openness to corrective health information
-]
+* Multilevel modeling & <br> longitutinal data
+
+* Coding (R, Matlab, Python)
+
+* Experimental design
+
+* Online experiments
+]]
+
+.pull-right[.center-right[
+
+### Research topics
+
+* Social media and mental health
+
+* Media content effects on real-world behavior
+
+* Misinformation interventions
+
+* Leveraging social identity to increase receptivity to corrective health information
+
+]]
+
+---
+layout: true
 
 ---
 
 # Thank you!
 
-<br>
+<br> 
 
 For more on my research: https://hannahmetzler.eu
 
@@ -442,3 +507,36 @@ knitr::include_graphics("figures/wwtf.svg")
 ```{r, echo=FALSE, out.width=260}
 knitr::include_graphics("figures/vibrant.svg")
 ```
+
+---
+class: inverse, center, middle, title-slide
+background-image: url(figures/brain.png)
+background-size: contain
+
+# Research Summary Hannah Metzler
+# Additional slides
+
+---
+
+# Validity of emotion measures
+
+.pull-left[.center-left[
+* UK Twitter data
+* YouGov: Weekly representative UK emotion survey
+* 2 year period
+
+* Automated text-analysis & Machine Learning
+* Pre-registered hypotheses for prediction period
+]]
+.pull-right[.center-right[
+```{r, echo=FALSE, out.width=650, fig.align='right'}
+knitr::include_graphics("figures/Anxiety.svg")
+```
+
+```{r, echo=FALSE, out.width=650, fig.align='right'}
+knitr::include_graphics("figures/Sadness.svg")
+```
+]]
+
+* Sentiment analysis in Austria: similar results
+
