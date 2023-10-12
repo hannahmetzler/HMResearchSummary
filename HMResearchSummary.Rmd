@@ -435,15 +435,15 @@ layout:true
 
 ---
 
-## How do digital media affect societal issues?
+## Digital media effects on well-being, fake news & polarization?
 
-* Mental health, fake news, polarization...
+* Social media & its algorithms as the culprit for large societal issues
 
-* Social media & its algorithms as the culprit
+* Social interaction networks vs. recommendation algorithms
 
+* Evidence: algorithms mostly reinforce existing social drivers of these problems
 
-
-
+* Suggestions for future research on platform design & algorithms that support well-being, and societal collaboration
 
 ---
 
@@ -508,35 +508,38 @@ knitr::include_graphics("figures/wwtf.svg")
 knitr::include_graphics("figures/vibrant.svg")
 ```
 
----
-class: inverse, center, middle, title-slide
-background-image: url(figures/brain.png)
-background-size: contain
 
-# Research Summary Hannah Metzler
-# Additional slides
+???
 
----
+<!-- --- -->
+<!-- class: inverse, center, middle, title-slide -->
+<!-- background-image: url(figures/brain.png) -->
+<!-- background-size: contain -->
 
-# Validity of emotion measures
+<!-- # Research Summary Hannah Metzler -->
+<!-- # Additional slides -->
 
-.pull-left[.center-left[
-* UK Twitter data
-* YouGov: Weekly representative UK emotion survey
-* 2 year period
+<!-- --- -->
 
-* Automated text-analysis & Machine Learning
-* Pre-registered hypotheses for prediction period
-]]
-.pull-right[.center-right[
-```{r, echo=FALSE, out.width=650, fig.align='right'}
-knitr::include_graphics("figures/Anxiety.svg")
-```
+<!-- # Validity of emotion measures -->
 
-```{r, echo=FALSE, out.width=650, fig.align='right'}
-knitr::include_graphics("figures/Sadness.svg")
-```
-]]
+<!-- .pull-left[.center-left[ -->
+<!-- * UK Twitter data -->
+<!-- * YouGov: Weekly representative UK emotion survey -->
+<!-- * 2 year period -->
 
-* Sentiment analysis in Austria: similar results
+<!-- * Automated text-analysis & Machine Learning -->
+<!-- * Pre-registered hypotheses for prediction period -->
+<!-- ]] -->
+<!-- .pull-right[.center-right[ -->
+<!-- ```{r, echo=FALSE, out.width=650, fig.align='right'} -->
+<!-- knitr::include_graphics("figures/Anxiety.svg") -->
+<!-- ``` -->
+
+<!-- ```{r, echo=FALSE, out.width=650, fig.align='right'} -->
+<!-- knitr::include_graphics("figures/Sadness.svg") -->
+<!-- ``` -->
+<!-- ]] -->
+
+<!-- * Sentiment analysis in Austria: similar results -->
 
