@@ -308,12 +308,39 @@ layout:true
 
 ---
 
-## Social media as a digital social environment
+# Social media as a digital social environment
 
-<br><br>
+<br>
 
 ```{r, echo=FALSE, out.width=1000, fig.align='center'}
 knitr::include_graphics("figures/framework_env.svg")
+```
+
+---
+layout:true
+<div class="my-footer"><span>
+<a href=https://journals.sagepub.com/doi/10.1177/17456916231185057> Metzler & Garcia (2023). Perspectives on Psychological Science (2023)</a></span></div>
+
+---
+
+## Digital media & well-being, fake news & polarization
+
+* Social media & its algorithms as the culprit for large societal issues
+
+* Social network structure & environment vs. recommendation algorithms
+
+* Evidence: algorithms mostly reinforce existing social drivers of these problems
+
+* Research on how social and algorithmic influences interact is scarce
+
+```{r, echo=FALSE, out.height=150}
+knitr::include_graphics("figures/logo-rond-twitter.svg")
+```
+```{r, echo=FALSE, out.height=180}
+knitr::include_graphics("figures/network.svg")
+```
+```{r, echo=FALSE, out.height=150}
+knitr::include_graphics("figures/Facebook_f_logo_(2019).svg")
 ```
 
 ---
@@ -322,7 +349,6 @@ layout: true
 <a href="www.hannahmetzler.eu/emomis"> Emomis project website </a></span></div>
 
 ---
-
 
 # Emotional misinformation spreading
 
@@ -420,32 +446,15 @@ knitr::include_graphics("figures/Facebook Post_Homeopathy_Intervention_Cropped.p
   * News articles from right-wing website
   
 * Pre-post: Sympathy and trust ratings
-  
-**=> Highlighting that current beliefs contradicts an <br>
-important social identity reduces trust in <br> 
-alternative medicine (r=0.6)**
 ]
 
----
-layout:true
-<div class="my-footer"><span>
-<a href=https://journals.sagepub.com/doi/10.1177/17456916231185057> Metzler & Garcia (2023). Perspectives on Psychological Science (2023)</a></span></div>
+<center> 
+**Highlighting that current beliefs constrast with an important<br>
+ social identity reduces trust in alternative medicine. <br> (r=0.6)**
 
 ---
 
-## Digital media effects on well-being, fake news & polarization?
-
-* Social media & its algorithms as the culprit for large societal issues
-
-* Social interaction networks vs. recommendation algorithms
-
-* Evidence: algorithms mostly reinforce existing social drivers of these problems
-
-* Ideas for future research on platform design & algorithms that support well-being, and societal collaboration
-
----
-
-## Relevant skills for the health psychology group
+## Research skills for the health psychology group
 
 .pull-left[.center-left[
 
@@ -457,23 +466,23 @@ layout:true
 
 * Coding (R, Matlab, Python)
 
-* Experimental design
-
 * Online experiments
+
+* Open science tools
+
 ]]
 
 .pull-right[.center-right[
 
 ### Research topics
 
-* Social media and mental health
+* Social media & well-being/mental health
 
 * Media content effects on real-world behavior
 
-* Misinformation interventions
+* Interventions for attitude & behavior change
 
-* Leveraging social identity to increase receptivity to corrective health information
-
+* Social & emotional influences on belief in (health) (mis)information
 ]]
 
 ---

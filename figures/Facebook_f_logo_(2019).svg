@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1498.1614"
+   height="1405.6108"
+   viewBox="0 0 15608.042 14643.839"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="Facebook_f_logo_(2019).svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1098"
+     inkscape:window-height="724"
+     id="namedview8"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.17287858"
+     inkscape:cx="251.36232"
+     inkscape:cy="754.85205"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6" />
+  <circle
+     cx="7231.5254"
+     cy="7172.2622"
+     r="7111"
+     id="circle2"
+     style="fill:#1977f3" />
+  <path
+     d="m 9999.5254,9228.262 314.9996,-2056 H 8342.5254 v -1334 c 0,-562 275,-1111 1159,-1111 h 896.9996 v -1750 c 0,0 -813.9996,-139 -1591.9996,-139 -1624,0 -2686,984 -2686,2767 v 1567 h -1806 v 2056 h 1806 v 4969 c 362,57 733,86 1111,86 378,0 749,-30 1111,-86 v -4969 z"
+     id="path4"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:10.41813183;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.28661251;stroke-opacity:1"
+     id="rect14"
+     width="14884.89"
+     height="14342.526"
+     x="0"
+     y="60.261971"
+     ry="211.29117" />
+  <rect
+     style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:6.58900595;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.28661251;stroke-opacity:1"
+     id="rect9"
+     width="2169.458"
+     height="14643.839"
+     x="13438.585"
+     y="7.1054274e-15"
+     ry="211.29117" />
+</svg>
