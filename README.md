@@ -1,3 +1,5 @@
 # Research Summary October 2023
 
-For presentation at Uni Vienna, Health Psychology Team
+Length: 
+20 min without the emomis preprint, and the first emomis slide
+30 min with everything?
