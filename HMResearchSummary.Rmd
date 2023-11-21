@@ -40,15 +40,15 @@ background-size: contain
 
 # Studying emotions, mental health and social behavior via social media
 ## Dr. Hannah Metzler
-### 13.10.2023 - University of Vienna
+### Research Summary  October 2023
 #### Slides: www.hannahmetzler.eu/HMResearchSummary
 
 
+???
+<!-- --- -->
+<!-- layout: true -->
 
----
-layout: true
-
----
+<!-- --- -->
 
 # My background
 
@@ -146,7 +146,7 @@ knitr::include_graphics("figures/framework_data.svg")
 ---
 layout: true
 <div class="my-footer"><span>
-<a href="https://psyarxiv.com/qejxv"> Metzler, Rimé, Pellert, Niederkrotenthaler, Di Natale & Garcia (2023) Emotion. </a></span></div>
+<a href="https://psyarxiv.com/qejxv"> Metzler, Rimé, Pellert, Niederkrotenthaler, Di Natale & Garcia (2023). Emotion. </a></span></div>
 
 ---
 
@@ -201,8 +201,8 @@ knitr::include_graphics("figures/correlation_anx_cases_week1.svg")
 ---
 layout: true
 <div class="my-footer"><span>
-<a href=https://arxiv.org/abs/2107.13236> Garcia, Pellert, Lasser, Metzler. arXiv (2021) - </a>
-<a href=https://www.nature.com/articles/s41598-022-14579-y> Pellert, Metzler, Matzenberger & Garcia. Scientific Reports (2022) </a></span></div>
+<a href=https://arxiv.org/abs/2107.13236> Garcia, Pellert, Lasser, Metzler (2021). ArXiv. - </a>
+<a href=https://www.nature.com/articles/s41598-022-14579-y> Pellert, Metzler, Matzenberger & Garcia (2022). Scientific Reports. </a></span></div>
 
 ---
 
@@ -217,7 +217,7 @@ knitr::include_graphics("figures/framework_effects.svg")
 ---
 layout: true
 <div class="my-footer"><span> 
-<a href="https://www.jmir.org/2022/8/e34705"> Metzler, Baginski, Niederkrotenthaler & Garcia (2022) JMIR </a></span></div>
+<a href="https://www.jmir.org/2022/8/e34705"> Metzler, Baginski, Niederkrotenthaler & Garcia (2022). JMIR. </a></span></div>
 
 ---
 
@@ -319,7 +319,7 @@ knitr::include_graphics("figures/framework_env.svg")
 ---
 layout:true
 <div class="my-footer"><span>
-<a href=https://journals.sagepub.com/doi/10.1177/17456916231185057> Metzler & Garcia (2023). Perspectives on Psychological Science (2023)</a></span></div>
+<a href=https://journals.sagepub.com/doi/10.1177/17456916231185057> Metzler & Garcia (2023). Perspectives on Psychological Science. </a></span></div>
 
 ---
 
@@ -389,7 +389,7 @@ knitr::include_graphics("figures/Emomis.svg")
 ---
 layout: true
 <div class="my-footer"><span>
-<a href=https://doi.org/10.31234/osf.io/udqms> Lühring, J., Shetty, A., ..., Metzler, H. (2023). PsyarXiv (2023)</a></span></div>
+<a href=https://doi.org/10.31234/osf.io/udqms> Lühring, J., Shetty, A., ..., Metzler, H. (2023). PsyarXiv. </a></span></div>
 
 ---
 
@@ -452,7 +452,8 @@ knitr::include_graphics("figures/Facebook Post_Homeopathy_Intervention_Cropped.p
 **Highlighting that current beliefs constrast with an important<br>
  social identity reduces trust in alternative medicine. <br> (r=0.6)**
 
----
+???
+Slide for application talk
 
 ## Research skills for the health psychology group
 
